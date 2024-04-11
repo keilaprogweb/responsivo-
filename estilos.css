@@ -1,0 +1,248 @@
+body{
+    background-color: #d8d14764;
+    color: rgb(34, 106, 106)
+} 
+h1{
+    text-align: center; 
+    color: rgb(47, 26, 22);
+    font-size: 40px;
+}
+* {
+    margin: 5px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Montserrat", sans-serif; /* Selecciona la fuente Montserrat como primera opción y luego la fuente genérica sans-serif */
+    margin: 0;
+    text-indent: 5px;
+    line-height: 1.7;
+    text-align: justify;
+}
+
+  .menu {
+    background-color: #7a7777;
+    display: block;
+    padding: 5px;
+  }
+  
+  .menu ul {
+    text-align: center;
+    list-style-type: none;
+    margin-top: 3px;
+    padding: 0;
+    display: flex; /* Establece el menú como un contenedor de elementos flexibles */
+  }
+  
+  .menu li {
+    padding: 3px 44px; /* Ajusta el espaciado interior de cada elemento del menú */
+  }
+  
+  .menu a {
+    color: #6787ee /* Color del texto del menú */
+    text-decoration: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Workbench", sans-serif;
+  }
+  
+  .menu a:hover {
+    background-color: #6f6d6d; /* Color de fondo al pasar el mouse sobre un enlace */
+  }
+
+
+
+  .header{
+    padding-top: 10px ;
+    padding-bottom: 10px;
+    display: flex;        
+    background-color:#5d5c5c;
+}
+.titulo{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-align: center;
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 25px;
+    letter-spacing: 3px;
+}
+h1{
+    color: #5678e9;
+    height: 70px;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 25px;
+  
+}
+article {
+  font-size: 30px;
+  color: #5678e9;
+  font-weight: bold;
+  border-bottom: 2px solid #5678e9; /* Establece un borde inferior de 2 píxeles de grosor y color negro */
+}
+.img{
+    height:70px;
+    width:90px; 
+    margin-left: 60px;
+    margin-top: 15px;
+}
+
+
+footer {
+    background-color: #ffb065;
+    text-align: center;
+    padding: 5px;
+    bottom: 0;
+    width: 100%;
+}
+
+.CONTENIDO{
+    width: 70%;
+}
+
+aside{
+    margin-top: 37px;
+    width: 28%;
+    background-color:  #ffb065;
+    padding: 1px;
+    height: 50%;
+    display: inline;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    border-radius: 5px; /* Radio de borde */
+    box-shadow: 0 0 13px #444752; /* Sombra */
+  
+}
+
+main{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.subtitulo{
+  color:#ffb065;
+  font-weight: lighter;
+  font-family: "Miriam Libre", sans-serif;
+}
+
+.videos{
+    justify-content: center;
+    text-align: center;
+    margin-top: 10px;
+}
+
+ol li{
+  font-family: "Text Me One", sans-serif;
+}
+
+/*TODO LO QUE VIENE DEBAJO ES DE LA GALERIA, si tiene mucho verde es porque la IA ha trabajado corrigiendo #la IA mi pasión*/
+
+div.gallery {
+  margin: 5px;
+  float: left;
+  width: 180px;
+  height: 250px; /* Ajustar la altura para dar espacio adicional */
+  overflow: hidden;
+  position: relative; /* Añadir posición relativa para controlar la superposición */
+}
+
+div.gallery:hover {
+  border: 1px solid #5678e9 ;
+}
+
+div.gallery img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  box-shadow: 0 8px 20px #5678e9 ;
+
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+  position: absolute; /* Posición absoluta para evitar superposición */
+  bottom: 0; /* Alinear la descripción en la parte inferior */
+  width: 100%; /* Asegurar que la descripción ocupe todo el ancho del contenedor */
+  background: rgba(0, 0, 0, 0.7); /* Fondo semitransparente para resaltar la descripción */
+  color: white ;
+  z-index: 1; /* Añadir un índice z para que la descripción esté por encima de cualquier otro contenido */
+}
+
+.GALETOP{
+  display: block;
+  display: inline-block;
+  margin-left: 30px;
+}
+
+.letra-aside{
+  font-size: 18px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+p{
+    color: rgb(134, 61, 79);
+
+}
+.center{
+    width: 40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+@media only screen and (max-width: 600px) {
+    body{
+        background-color:rgb(123, 41, 74);
+        color: #5678e9;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        color: brown;
+    }
+    p{
+        font-size: 20px;
+        color: #5678e9;
+    }
+    
+}
+@media only screen and (max-width: 650px) {
+    body{
+        background-color:rgb(53, 156, 211);
+        color: #5678e9;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        color: brown;
+    }
+    p{
+        font-size: 20px;
+        color: #5678e9;
+    }
+    
+}
+@media only screen and (max-width: 700px) {
+    body{
+        background-color:rgb(176, 105, 194);
+        color: #5678e9;
+    }
+    h1{
+        font-size: 30px;
+        text-align: center;
+        color: brown;
+    }
+    p{
+        font-size: 20px;
+        color: ;
+    }
+    
+}
